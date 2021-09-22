@@ -16,7 +16,7 @@
             <a href="#"><i class="flaticon-twitter"></i></a>
             <a href="#"><i class="flaticon-skype"></i></a>
             <a href="#"><i class="flaticon-instagram"></i></a>
-            <span><i class="flaticon-phone-call"></i>+880 356 257 142</a></span>
+            <span><i class="flaticon-phone-call"></i>+880 356 257 142</span>
           </div>
         </div>
       </div>
@@ -47,26 +47,26 @@
                   <a class="nav-link" href="{{ route('trips') }}">Trips</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown"
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
                      role="button" data-toggle="dropdown" aria-haspopup="true"
                      aria-expanded="false">
                     Blog
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="blog.html">Blog</a>
-                    <a class="dropdown-item" href="single-blog.html">Single blog</a>
+                    <a class="dropdown-item" href="#">Blog</a>
+                    <a class="dropdown-item" href="#">Single blog</a>
                   </div>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1"
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_1"
                      role="button" data-toggle="dropdown" aria-haspopup="true"
                      aria-expanded="false">
                     pages
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                    <a class="dropdown-item" href="top_place.html">top place</a>
-                    <a class="dropdown-item" href="tour_details.html">tour details</a>
-                    <a class="dropdown-item" href="elements.html">Elements</a>
+                    <a class="dropdown-item" href="{{ route('trips') }}">top place</a>
+                    <a class="dropdown-item" href="{{ route('trip', ['id' => 1]) }}">tour details</a>
+                    <a class="dropdown-item" href="#">Elements</a>
                   </div>
                 </li>
                 <li class="nav-item">
