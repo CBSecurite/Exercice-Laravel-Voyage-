@@ -17,7 +17,7 @@ Route::get('/', 'App\Http\Controllers\StaticController@home')->name('home');
 
 Route::get('/trips', 'App\Http\Controllers\StaticController@trips')->name('trips');
 
-Route::get('/trip/{id}', 'App\Http\Controllers\StaticController@trip')->name('trip');
+Route::get('/trip/{id}', 'App\Http\Controllers\StaticController@trip')->name('trip')->where('id', '[0-9]+');
 
 Route::get('/aboutus', function () {
     return view('aboutus');
