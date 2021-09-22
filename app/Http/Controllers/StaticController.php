@@ -10,11 +10,11 @@ class StaticController extends Controller
     return view('home');
   }
 
-  public function tips() {
+  public function trips() {
     return view('trips');
   }
 
-  public function tip($id) {
+  public function trip($id) {
     return view('trip');
   }
 
