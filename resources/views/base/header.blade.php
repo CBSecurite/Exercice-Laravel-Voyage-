@@ -44,30 +44,7 @@
                   <a class="nav-link" href="{{ route('aboutus') }}">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{{ route('trips') }}">Trips</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                     role="button" data-toggle="dropdown" aria-haspopup="true"
-                     aria-expanded="false">
-                    Blog
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Blog</a>
-                    <a class="dropdown-item" href="#">Single blog</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_1"
-                     role="button" data-toggle="dropdown" aria-haspopup="true"
-                     aria-expanded="false">
-                    pages
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                    <a class="dropdown-item" href="{{ route('trips') }}">top place</a>
-                    <a class="dropdown-item" href="{{ route('trip', ['id' => 1]) }}">tour details</a>
-                    <a class="dropdown-item" href="#">Elements</a>
-                  </div>
+                  <a class="nav-link" href="{{ route('voyages') }}">Voyages</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{{ route('contact') }}">Contact</a>
