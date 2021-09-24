@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', 'Admin | Voyage Edit')
+@section('title', 'Admin | Edit Voyage')
 
 
 @section('content')

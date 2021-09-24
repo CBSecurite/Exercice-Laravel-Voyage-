@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', 'Trips')
+@section('title', 'Voyages')
 
 
 @section('content')
